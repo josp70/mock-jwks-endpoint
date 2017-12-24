@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node service.js",
-    "test": "nyc mocha test",
+    "test": "nyc mocha --timeout 5000 test",
     "lint": "eslint *.js lib/** test/**"
   },
   "repository": {
